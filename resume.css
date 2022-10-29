@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,600;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/mar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    height: 600px;
+    width: 370px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+button{
+    /* position: absolute;
+    margin: 40vw; */
+    
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
