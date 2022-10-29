@@ -77,3 +77,35 @@ a{
         margin-left: 25px;
     }
 }
+@media only screen and (max-width:360px){
+    body{
+        display: flex;
+        flex-direction: column;   
+    }
+    img{
+        height: 80vh;
+        width: 100vw;
+    }
+    h3{
+        display: none;
+    }
+    h1{
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width:320px){
+    body{
+        display: flex;
+        flex-direction: column;   
+    }
+    img{
+        height: 80vh;
+        width: 100vw;
+    }
+    h3{
+        display: none;
+    }
+    h1{
+        margin-left: 25px;
+    }
+}
